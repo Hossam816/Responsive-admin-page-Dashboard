@@ -22,17 +22,17 @@ const Orders = () => {
       <Header category="Page" title="Orders" />
       <GridComponent
         id="gridcomp"
-        dataSource={ordersData}
+        dataSource={ ordersData }
         allowPaging
         allowSorting
       >
         <ColumnsDirective>
-          {ordersGrid.map((item, index) => (
-            <ColumnDirective key={index} {...item} />
-          ))}
+          { ordersGrid.map((item, index) => (
+            <ColumnDirective key={ index } { ...item } />
+          )) }
         </ColumnsDirective>
         <Inject
-          services={[
+          services={ [
             Resize,
             Sort,
             ContextMenu,
@@ -41,7 +41,7 @@ const Orders = () => {
             PdfExport,
             Filter,
             Page,
-          ]}
+          ] }
         />
       </GridComponent>
     </div>
