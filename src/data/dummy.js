@@ -3135,7 +3135,7 @@ export const lineCustomSeries = [
     dataSource: lineChartData[ 0 ],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Egypt',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line'
@@ -3155,7 +3155,7 @@ export const lineCustomSeries = [
     dataSource: lineChartData[ 2 ],
     xName: 'x',
     yName: 'y',
-    name: 'India',
+    name: 'Italy',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line'
