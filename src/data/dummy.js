@@ -13,7 +13,7 @@ import { GrLocation } from 'react-icons/gr';
 import avatar from '../assets/avatar.jpg';
 import avatar2 from '../assets/avatar2.jpg';
 import avatar3 from '../assets/avatar3.png';
-import avatar4 from '../assets/avatar4.jpg';
+import avatar4 from '../assets/person1.jpg';
 import product1 from '../assets/product1.jpg';
 import product2 from '../assets/product2.jpg';
 import product3 from '../assets/product3.jpg';
@@ -1523,13 +1523,154 @@ export const customersData = [
 export const employeesData = [
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Ali Fawzy',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
       avatar3,
+  },
+  {
+    EmployeeID: 2,
+    Name: 'Hady Fady',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar3,
+  },
+  {
+    EmployeeID: 3,
+    Name: 'Hoso Elnoso',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar4,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Haidy Ameer',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Omar Darobe',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 1,
+    Name: 'Nadia Maher',
+    Title: 'Sales Representative',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+
+  },
+  {
+    EmployeeID: 2,
+    Name: 'Saied Ahmed',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar3,
+  },
+  {
+    EmployeeID: 3,
+    Name: 'HOSO',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar4,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Siegbert Gottfried',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Omar Darobe',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'Sales Representative',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
   },
   {
     EmployeeID: 2,
@@ -1543,7 +1684,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Hoso Elnoso',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1614,77 +1755,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar4,
-  },
-  {
-    EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 5,
-    Name: 'Omar Darobe',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 4,
-    Name: 'Penjani Inyene',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 5,
-    Name: 'Miron Vitold',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 1,
-    Name: 'Nancy Davolio',
-    Title: 'Sales Representative',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Hoso Elnoso',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1755,7 +1826,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Hoso Elnoso',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1826,7 +1897,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Hoso Elnoso',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1897,7 +1968,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Hoso Elnoso',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -1968,7 +2039,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Hoso Elnoso',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
@@ -2039,78 +2110,7 @@ export const employeesData = [
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar4,
-  },
-  {
-    EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 5,
-    Name: 'Omar Darobe',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 4,
-    Name: 'Penjani Inyene',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 5,
-    Name: 'Miron Vitold',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 1,
-    Name: 'Nancy Davolio',
-    Title: 'Sales Representative',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar2,
-
-  },
-  {
-    EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Hoso Elnoso',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
