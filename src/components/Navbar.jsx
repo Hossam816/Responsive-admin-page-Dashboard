@@ -37,6 +37,7 @@ const Navbar = () => {
     currentColor
   } = useStateContext();
 
+
   useEffect(() => {
     const handleResize = () => setScreenSize(window.innerWidth);
 
@@ -106,10 +107,10 @@ const Navbar = () => {
           </div>
         </TooltipComponent>
 
-        { isClicked.cart && <Cart /> }
-        { isClicked.chat && <Chat /> }
-        { isClicked.notification && <Notification /> }
-        { isClicked.userProfile && <UserProfile /> }
+        { isClicked?.cart && <Cart /> }
+        { isClicked?.chat && <Chat /> }
+        { isClicked?.notification && <Notification /> }
+        { isClicked?.userProfile && <UserProfile /> }
       </div>
     </div>
   );
